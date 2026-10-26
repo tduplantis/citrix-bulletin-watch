@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "lastRun": "2026-10-26T19:12:06Z",
-  "lastOk": "2026-10-26T19:12:06Z",
+  "lastRun": "2026-10-26T19:41:02Z",
+  "lastOk": "2026-10-26T19:41:02Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
@@ -354,7 +354,7 @@
       "updated": "2026-08-19",
       "firstSeen": "2026-10-26T19:01:54Z",
       "details": {
-        "severity": null,
+        "severity": "Critical",
         "cvss": {
           "CVE-2026-19489": 8.8,
           "CVE-2026-19490": 9.3
