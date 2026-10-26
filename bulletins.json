@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "lastRun": "2026-10-26T19:01:54Z",
-  "lastOk": "2026-10-26T19:01:54Z",
+  "lastRun": "2026-10-26T19:12:06Z",
+  "lastOk": "2026-10-26T19:12:06Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
-  "count": 41,
+  "count": 45,
   "bulletins": [
     {
       "ctx": "CTX697257",
@@ -29,6 +29,30 @@
         "fixed": [
           "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/us/en/xenserver/8/update.html or https://docs.xenserver.com/us/en/xenserver/9/update.html"
         ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX697263",
+      "title": "Citrix Security Advisory for CVE-2026-109618 and CVE-2026-109619",
+      "url": "https://support.citrix.com/external/article/CTX697263",
+      "cves": [
+        "CVE-2026-109618",
+        "CVE-2026-109619"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2026-10-22",
+      "updated": "2026-10-22",
+      "firstSeen": "2026-10-26T19:12:06Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [],
+        "fixed": [],
         "preconditions": {},
         "exploited": null
       }
@@ -353,6 +377,36 @@
       }
     },
     {
+      "ctx": "CTX696911",
+      "title": "Citrix Workspace App for Mac Security Bulletin for CVE-2026-18751",
+      "url": "https://support.citrix.com/external/article/CTX696911",
+      "cves": [
+        "CVE-2026-18751"
+      ],
+      "products": [
+        "Citrix Workspace app for Mac"
+      ],
+      "published": "2026-08-18",
+      "updated": "2026-08-24",
+      "firstSeen": "2026-10-26T19:12:06Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {
+          "CVE-2026-18751": 5.2
+        },
+        "affected": [
+          "Citrix Workspace app for Mac before 2607"
+        ],
+        "fixed": [
+          "Citrix Workspace app for Mac 2607 and later"
+        ],
+        "preconditions": {
+          "CVE-2026-18751": "Attacker must have local authenticated user access to the device where CWA for Mac is installed"
+        },
+        "exploited": null
+      }
+    },
+    {
       "ctx": "CTX696836",
       "title": "XenServer Security Update for Multiple Issues",
       "url": "https://support.citrix.com/external/article/CTX696836",
@@ -409,6 +463,96 @@
           "What We Are Doing"
         ],
         "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX696734",
+      "title": "Citrix Secure Access Client for Windows and Citrix Endpoint Analysis Client for Windows Security Bulletin for CVE-2026-53565 and CVE-2026-53566",
+      "url": "https://support.citrix.com/external/article/CTX696734",
+      "cves": [
+        "CVE-2026-53565",
+        "CVE-2026-53566"
+      ],
+      "products": [
+        "Citrix Endpoint Analysis",
+        "Citrix Secure Access Client for Windows"
+      ],
+      "published": "2026-07-14",
+      "updated": "2026-09-04",
+      "firstSeen": "2026-10-26T19:12:06Z",
+      "details": {
+        "severity": "High",
+        "cvss": {
+          "CVE-2026-53565": 8.5,
+          "CVE-2026-53566": 6.8
+        },
+        "affected": [
+          "Citrix Secure Access Client for Windows versions BEFORE 26.6.1.20",
+          "Citrix Endpoint Analysis Client for Windows versions BEFORE 26.5.1.7"
+        ],
+        "fixed": [
+          "Citrix Secure Access Client for Windows 26.6.1.20 and later releases",
+          "Citrix Endpoint Analysis Client for Windows 26.5.1.7 and later releases"
+        ],
+        "preconditions": {
+          "CVE-2026-53565": "Standard user access on local system",
+          "CVE-2026-53566": "Standard user access on local system and DNE driver is not installed"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX696604",
+      "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2026-8451, CVE-2026-8452, CVE-2026-8655, CVE-2026-10816, CVE-2026-10817, and CVE-2026-13474",
+      "url": "https://support.citrix.com/external/article/CTX696604",
+      "cves": [
+        "CVE-2026-8451",
+        "CVE-2026-8452",
+        "CVE-2026-8655",
+        "CVE-2026-10816",
+        "CVE-2026-10817",
+        "CVE-2026-13474"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2026-06-30",
+      "updated": "2026-07-20",
+      "firstSeen": "2026-10-26T19:12:06Z",
+      "details": {
+        "severity": "High",
+        "cvss": {
+          "CVE-2026-8451": 8.8,
+          "CVE-2026-8452": 8.8,
+          "CVE-2026-8655": 8.8,
+          "CVE-2026-10816": 7.1,
+          "CVE-2026-10817": 6.9,
+          "CVE-2026-13474": 8.7
+        },
+        "affected": [
+          "NetScaler ADC and NetScaler Gateway 14.1 BEFORE 14.1-72.61",
+          "NetScaler ADC and NetScaler Gateway 13.1 BEFORE 13.1-63.18",
+          "NetScaler ADC FIPS BEFORE 14.1-72.61 FIPS",
+          "NetScaler ADC FIPS and NDcPP BEFORE 13.1-37.272"
+        ],
+        "fixed": [
+          "NetScaler ADC and NetScaler Gateway 14.1-72.61 and later releases",
+          "NetScaler ADC and NetScaler Gateway 13.1-63.18 and later releases of 13.1",
+          "NetScaler ADC 14.1-FIPS 14.1-72.61 FIPS and later releases of 14.1-FIPS",
+          "NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1.37.272 and later releases of 13.1-FIPS and 13.1-NDcPP",
+          "For appliances using HTTP Strict Profiles, this parameter defaults to 30 seconds, and the fix is effective immediately after the upgrade.",
+          "For appliances NOT using HTTP Strict Profiles, the default value is 0, and in that case, merely upgrading to the builds containing the fix WILL NOT address the vulnerability completely. In this case, customers must manually set Http2SmallWndTimeout to 30 seconds."
+        ],
+        "preconditions": {
+          "CVE-2026-8451": "NetScaler ADC or NetScaler Gateway must be configured as a SAML IDP",
+          "CVE-2026-8452": "Appliance must be configured as: Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server",
+          "CVE-2026-8655": "NetScaler ADC must be configured as an LB of type Oracle OR NetScaler ADC must be configured as a DNS Proxy OR NetScaler ADC must be configured as a DNS recursive resolver deployment",
+          "CVE-2026-10816": "Access to NSIP, Cluster Management IP or SNIP with management access enabled",
+          "CVE-2026-10817": "TCP TimeStamp enabled in TCP Profile and associated with the virtual server (of type LB, CS, VPN) or the service configured on NetScaler",
+          "CVE-2026-13474": "HTTP/2 enabled in HTTP Profile and associated with the virtual server (of type LB, CS, VPN) or the service configured on NetScaler"
+        },
         "exploited": null
       }
     },
