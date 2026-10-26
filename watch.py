@@ -34,6 +34,7 @@ FETCH_GAP = 2.0          # seconds between article fetches
 REVALIDATE_EVERY = 24 * 3600
 REVALIDATE_NEWEST = 10
 HEARTBEAT_EVERY = 24 * 3600 - 30 * 60   # a little under a day so hourly cron always lands
+PARSER_VERSION = 2   # bump when parse_article changes; triggers one full re-parse
 
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}")
 CTX_RE = re.compile(r"CTX\d{5,7}")
@@ -303,7 +304,7 @@ def parse_article(raw):
 
     severity = None
     for t in texts:
-        m = re.match(r"Severity\s*[-–:]\s*([A-Za-z]+)", t)
+        m = re.match(r"Severity(?: of (?:the )?Bulletin)?\s*[-–:]\s*([A-Za-z]+)", t, re.I)
         if m:
             severity = m.group(1).capitalize()
             break
@@ -465,6 +466,10 @@ def main():
         for ctx, received in hints.items():
             if CTX_RE.fullmatch(ctx) and hints_done.get(ctx) != received:
                 want.setdefault(ctx, "email alert")
+        if prev_bulletins and meta.get("parserVersion") != PARSER_VERSION:
+            for b in prev_bulletins:
+                want.setdefault(b["ctx"], "parser update")
+        meta["parserVersion"] = PARSER_VERSION
         last_rv = parse_iso(meta.get("lastRevalidate", ""))
         if not last_rv or (dt.datetime.now(dt.timezone.utc) - last_rv).total_seconds() >= REVALIDATE_EVERY:
             newest = sorted(prev_bulletins, key=sort_key, reverse=True)[:REVALIDATE_NEWEST]
@@ -476,7 +481,7 @@ def main():
         for i, (ctx, why) in enumerate(want.items()):
             if i:
                 time.sleep(FETCH_GAP)
-            etag = etags.get(ctx) if ctx in prev_map and why != "retry" else None
+            etag = etags.get(ctx) if ctx in prev_map and why not in ("retry", "parser update") else None
             try:
                 status, body, new_etag = fetch_article(ctx, etag)
             except Exception as e:  # noqa: BLE001
