@@ -34,7 +34,7 @@ FETCH_GAP = 2.0          # seconds between article fetches
 REVALIDATE_EVERY = 24 * 3600
 REVALIDATE_NEWEST = 10
 HEARTBEAT_EVERY = 24 * 3600 - 30 * 60   # a little under a day so hourly cron always lands
-PARSER_VERSION = 2   # bump when parse_article changes; triggers one full re-parse
+PARSER_VERSION = 3  # bump when parse_article changes; triggers one full re-parse
 
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}")
 CTX_RE = re.compile(r"CTX\d{5,7}")
@@ -466,7 +466,8 @@ def main():
         for ctx, received in hints.items():
             if CTX_RE.fullmatch(ctx) and hints_done.get(ctx) != received:
                 want.setdefault(ctx, "email alert")
-        if prev_bulletins and meta.get("parserVersion") != PARSER_VERSION:
+        reparse = bool(prev_bulletins) and meta.get("parserVersion") != PARSER_VERSION
+        if reparse:
             for b in prev_bulletins:
                 want.setdefault(b["ctx"], "parser update")
         meta["parserVersion"] = PARSER_VERSION
@@ -481,7 +482,8 @@ def main():
         for i, (ctx, why) in enumerate(want.items()):
             if i:
                 time.sleep(FETCH_GAP)
-            etag = etags.get(ctx) if ctx in prev_map and why not in ("retry", "parser update") else None
+            # A parser change needs full bodies even for pages that would answer 304.
+            etag = etags.get(ctx) if ctx in prev_map and not reparse and why != "retry" else None
             try:
                 status, body, new_etag = fetch_article(ctx, etag)
             except Exception as e:  # noqa: BLE001
