@@ -1,0 +1,1365 @@
+{
+  "schema": 1,
+  "lastRun": "2026-10-26T19:01:54Z",
+  "lastOk": "2026-10-26T19:01:54Z",
+  "ok": true,
+  "error": "",
+  "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
+  "count": 41,
+  "bulletins": [
+    {
+      "ctx": "CTX697257",
+      "title": "XenServer Security Update for CVE-2026-114406",
+      "url": "https://support.citrix.com/external/article/CTX697257",
+      "cves": [
+        "CVE-2026-114406"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-10-23",
+      "updated": "2026-10-23",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {},
+        "affected": [
+          "These issues affect both XenServer 8.4 and XenServer 9. Only deployments using the LDAPS feature are affected (this feature was introduced in July 2026)."
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/us/en/xenserver/8/update.html or https://docs.xenserver.com/us/en/xenserver/9/update.html"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX697187",
+      "title": "Citrix UniconOS Security Bulletin CVE-2026-53562, CVE-2026-53563, and CVE-2026-53564",
+      "url": "https://support.citrix.com/external/article/CTX697187",
+      "cves": [
+        "CVE-2026-53562",
+        "CVE-2026-53563",
+        "CVE-2026-53564"
+      ],
+      "products": [
+        "Citrix UniconOS"
+      ],
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {
+          "CVE-2026-53562": 8.5,
+          "CVE-2026-53563": 6.8,
+          "CVE-2026-53564": 5.1
+        },
+        "affected": [
+          "Citrix UniconOS versions BEFORE 2607.2",
+          "Citrix UniconOS versions BEFORE 2603 LTSR CU2"
+        ],
+        "fixed": [
+          "Citrix UniconOS 2607.2 and later versions",
+          "Citrix UniconOS 2603 LTSR CU2 and later versions"
+        ],
+        "preconditions": {
+          "CVE-2026-53562": "The attacker must have authenticated, low-privileged local access to the target eLux system",
+          "CVE-2026-53563": "The attacker must have authenticated, low-privileged local access to the target eLux system",
+          "CVE-2026-53564": "The target system must be within range of an attacker-controlled wireless access point, and a user must initiate a connection to the captive portal"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX697181",
+      "title": "Citrix Workspace App for Windows Security Bulletin CVE-2026-84419 and CVE-2026-84420",
+      "url": "https://support.citrix.com/external/article/CTX697181",
+      "cves": [
+        "CVE-2026-84419",
+        "CVE-2026-84420"
+      ],
+      "products": [
+        "Citrix Workspace app for Windows"
+      ],
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {
+          "CVE-2026-84419": 6.8,
+          "CVE-2026-84420": 5.8
+        },
+        "affected": [
+          "Citrix Workspace app for Windows versions BEFORE 2603.20",
+          "Citrix Workspace app for Windows versions BEFORE LTSR 2607 Hotfix 1",
+          "Citrix Workspace app for Windows versions BEFORE LTSR 2507 CU3 Hotfix 1",
+          "Citrix Workspace app for Windows versions BEFORE LTSR 2607",
+          "Citrix Workspace app for Windows versions BEFORE LTSR 2507 CU3"
+        ],
+        "fixed": [
+          "Citrix Workspace app for Windows 2603.20 and later versions",
+          "Citrix Workspace app for Windows LTSR 2607 Hotfix 1 and later versions",
+          "Citrix Workspace app for Windows LTSR 2507 CU3 Hotfix 1 and later versions",
+          "Citrix Workspace app for Windows LTSR 2607 and later versions",
+          "Citrix Workspace app for Windows LTSR 2507 CU3 and later versions"
+        ],
+        "preconditions": {
+          "CVE-2026-84419": "Local access to the target system AND App Protection feature enabled",
+          "CVE-2026-84420": "Local access to the target system"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX697170",
+      "title": "XenServer Security Update for CVE-2026-79610, CVE-2026-79610, CVE-2026-102700 and CVE-2026-102701",
+      "url": "https://support.citrix.com/external/article/CTX697170",
+      "cves": [
+        "CVE-2026-79610",
+        "CVE-2026-102700",
+        "CVE-2026-102701",
+        "CVE-2026-79611"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {},
+        "affected": [
+          "These issues affect both XenServer 8.4 and XenServer 9 except for CVE-2026-102700 which affects XenServer 8.4 only."
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update or https://docs.xenserver.com/en-us/xenserver/9/update"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX697191",
+      "title": "Citrix NetScaler ADC and Citrix NetScaler Gateway Security Bulletin for CVE-2026-107406",
+      "url": "https://support.citrix.com/external/article/CTX697191",
+      "cves": [
+        "CVE-2026-107406"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Critical",
+        "cvss": {
+          "CVE-2026-107406": 9.5
+        },
+        "affected": [
+          "NetScaler ADC and NetScaler Gateway between 14.1-73.37 and 14.1-73.41, inclusive",
+          "NetScaler ADC 14.1-FIPS between 14.1-73.37 FIPS and 14.1-73.41 FIPS, inclusive",
+          "NetScaler ADC and NetScaler Gateway between 13.1-64.23 and 13.1-64.28, inclusive",
+          "NetScaler ADC 13.1-FIPS between 13.1-NDcPP 13.1-37.279 and 13.1- 37.282, inclusive",
+          "NetScaler ADC and NetScaler Gateway before 14.1-73.37",
+          "NetScaler ADC 14.1-FIPS before 14.1-73.37 FIPS",
+          "NetScaler ADC and NetScaler Gateway before 13.1-64.23",
+          "NetScaler ADC 13.1-FIPS before 13.1-NDcPP 13.1-37.279"
+        ],
+        "fixed": [
+          "Citrix NetScaler ADC and Citrix NetScaler Gateway 14.1-73.46 and later releases",
+          "Citrix NetScaler ADC and Citrix NetScaler Gateway 13.1-64.29 and later releases of 13.1",
+          "Citrix NetScaler ADC 14.1-FIPS 14.1-73.46 FIPS and later releases of 14.1-FIPS",
+          "Citrix NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1.37.283 and later releases of 13.1-FIPS and 13.1-NDcPP"
+        ],
+        "preconditions": {
+          "CVE-2026-107406": "NetScaler ADC or NetScaler Gateway must be configured as a SAML SP or SAML IdP, subject to the following version-specific requirements: For the following versions: Applicable only when configured as a SAML IdP: NetScaler ADC and NetScaler Gateway between 14.1-73.37 and 14.1-73.41, inclusive NetScaler ADC 14.1-FIPS between 14.1-73.37 FIPS and 14.1-73.41 FIPS, inclusive NetScaler ADC and NetScaler Gateway between 13.1-64.23 and 13.1-64.28, inclusive NetScaler ADC 13.1-FIPS between 13.1-NDcPP 13.1-37.279 and 13.1- 37.282, inclusive For the following versions: Applicable only when configured as a SAML SP or SAML IdP: NetScaler ADC and NetScaler Gateway before 14.1-73.37 NetScaler ADC 14.1-FIPS before 14.1-73.37 FIPS NetScaler ADC and NetScaler Gateway before 13.1-64.23 NetScaler ADC 13.1-FIPS before13.1-NDcPP 13.1-37.279"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX697174",
+      "title": "Citrix NetScaler ADC and Citrix NetScaler Gateway Security Bulletin for CVE-2026-88779",
+      "url": "https://support.citrix.com/external/article/CTX697174",
+      "cves": [
+        "CVE-2026-88779"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2026-10-03",
+      "updated": "2026-10-03",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {
+          "CVE-2026-88779": 8.7
+        },
+        "affected": [
+          "Citrix NetScaler ADC and Citrix NetScaler Gateway 14.1 BEFORE 14.1-73.41",
+          "Citrix NetScaler ADC and Citrix NetScaler Gateway 13.1 BEFORE 13.1-64.28",
+          "Citrix NetScaler ADC FIPS BEFORE 14.1-73.41 FIPS",
+          "Citrix NetScaler ADC FIPS and NDcPP BEFORE 13.1-37.282"
+        ],
+        "fixed": [
+          "NetScaler ADC and NetScaler Gateway 14.1-73.41 and later releases",
+          "NetScaler ADC and NetScaler Gateway 13.1-64.28 and later releases of 13.1",
+          "NetScaler ADC 14.1-FIPS 14.1-73.41 FIPS and later releases of 14.1-FIPS",
+          "NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1-37.282 and later releases of 13.1-FIPS and 13.1-NDcPP"
+        ],
+        "preconditions": {
+          "CVE-2026-88779": "NetScaler ADC or NetScaler Gateway must be configured as a SAML SP OR SAML IdP"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX697096",
+      "title": "Citrix NetScaler ADC and Citrix NetScaler Gateway Security Bulletin for CVE-2026-88771, CVE-2026-88772, CVE-2026-88773, CVE-2026-88774, CVE-2026-88775, CVE-2026-88776, CVE-2026-88777, and CVE-2026-88778",
+      "url": "https://support.citrix.com/external/article/CTX697096",
+      "cves": [
+        "CVE-2026-88771",
+        "CVE-2026-88772",
+        "CVE-2026-88773",
+        "CVE-2026-88774",
+        "CVE-2026-88775",
+        "CVE-2026-88776",
+        "CVE-2026-88777",
+        "CVE-2026-88778"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2026-09-27",
+      "updated": "2026-09-27",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Critical",
+        "cvss": {
+          "CVE-2026-88771": 9.5,
+          "CVE-2026-88772": 9.5,
+          "CVE-2026-88773": 9.3,
+          "CVE-2026-88774": 7.0,
+          "CVE-2026-88775": 8.8,
+          "CVE-2026-88776": 8.8,
+          "CVE-2026-88777": 8.8,
+          "CVE-2026-88778": 8.8
+        },
+        "affected": [
+          "Citrix NetScaler ADC and Citrix NetScaler Gateway 14.1 BEFORE 14.1-73.37",
+          "Citrix NetScaler ADC and Citrix NetScaler Gateway 13.1 BEFORE 13.1-64.23",
+          "Citrix NetScaler ADC FIPS BEFORE 14.1-73.37 FIPS",
+          "Citrix NetScaler ADC FIPS and NDcPP BEFORE 13.1-37.279"
+        ],
+        "fixed": [
+          "Citrix NetScaler ADC and Citrix NetScaler Gateway 14.1-73.37 and later releases",
+          "Citrix NetScaler ADC and Citrix NetScaler Gateway 13.1-64.23 and later releases of 13.1",
+          "Citrix NetScaler ADC 14.1-FIPS 14.1-73.37 FIPS and later releases of 14.1-FIPS",
+          "Citrix NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1.37.279 and later releases of 13.1-FIPS and 13.1-NDcPP"
+        ],
+        "preconditions": {
+          "CVE-2026-88771": "All NetScaler ADC and NetScaler Gateway deployments (Default configuration / No additional feature required)",
+          "CVE-2026-88772": "DTLS configuration enabled on NetScaler ADC or NetScaler Gateway (Note: Enabled by default on VPN vServer)",
+          "CVE-2026-88773": "HTTP Configuration enabled on NetScaler ADC or NetScaler Gateway",
+          "CVE-2026-88774": "Any policy expression configured with HTTP URL based expression",
+          "CVE-2026-88775": "NetScaler ADC or NetScaler Gateway configured as either:• Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy)• AAA virtual server",
+          "CVE-2026-88776": "Configured as a Load Balancing (LB) virtual server of type Oracle on NetScaler ADC or NetScaler Gateway",
+          "CVE-2026-88777": "Configured as an LB/CS or CGNAT-LSN/NAT64 device with a non-HTTP L7 protocol feature enabled on NetScaler ADC or NetScaler Gateway",
+          "CVE-2026-88778": "TCP Configuration enabled on NetScaler ADC or NetScaler Gateway"
+        },
+        "exploited": "Exploits of CVE-2026-88771 and CVE-2026-88772 on unmitigated NetScaler deployments have been observed."
+      }
+    },
+    {
+      "ctx": "CTX697034",
+      "title": "Citrix Workspace app for Windows Security Bulletin CVE-2026-78546 and CVE-2026-78547",
+      "url": "https://support.citrix.com/external/article/CTX697034",
+      "cves": [
+        "CVE-2026-78546",
+        "CVE-2026-78547"
+      ],
+      "products": [
+        "Citrix Workspace app for Windows"
+      ],
+      "published": "2026-09-08",
+      "updated": "2026-09-08",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {
+          "CVE-2026-78546": 4.8,
+          "CVE-2026-78547": 4.4
+        },
+        "affected": [
+          "Citrix Workspace app for Windows versions BEFORE 2603.11",
+          "Citrix Workspace app for Windows versions BEFORE 2507.1 LTSR CU3",
+          "Citrix Workspace app for Windows versions BEFORE 2607 LTSR"
+        ],
+        "fixed": [
+          "Citrix Workspace app for Windows 2603.11 and later versions",
+          "Citrix Workspace app for Windows 2507.1 LTSR CU3 and later versions",
+          "Citrix Workspace app for Windows 2607 LTSR"
+        ],
+        "preconditions": {
+          "CVE-2026-78546": "Local access to the target system",
+          "CVE-2026-78547": "Physical access to the target system"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX696939",
+      "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2026-19489 and CVE-2026-19490",
+      "url": "https://support.citrix.com/external/article/CTX696939",
+      "cves": [
+        "CVE-2026-19489",
+        "CVE-2026-19490"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2026-08-19",
+      "updated": "2026-08-19",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2026-19489": 8.8,
+          "CVE-2026-19490": 9.3
+        },
+        "affected": [
+          "The following supported versions of NetScaler ADC and NetScaler Gateway are affected by the vulnerabilities:",
+          "NetScaler ADC and NetScaler Gateway 14.1 BEFORE 14.1-73.32",
+          "NetScaler ADC and NetScaler Gateway 13.1 BEFORE 13.1-63.21"
+        ],
+        "fixed": [
+          "Cloud Software Group strongly urges affected customers of NetScaler ADC and NetScaler Gateway to install the relevant updated versions as soon as possible.",
+          "NetScaler ADC and NetScaler Gateway 14.1-73.32 and later releases",
+          "NetScaler ADC and NetScaler Gateway 13.1-63.21 and later releases of 13.1"
+        ],
+        "preconditions": {
+          "CVE-2026-19489": "SIP ALG(Session Initiation Protocol Application Layer Gateway) should be enabled on a Large Scale NAT (LSN) group configuration.",
+          "CVE-2026-19490": "The appliance must be configured as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or an AAA virtual server, subject to the following version-specific requirements: 14.1-43.56 or later: Applicable only when configured with a SAML action AND NetScaler is configured with Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or AAA vserver 14.1-66.68-FIPS or later: Applicable only when configured with a SAML action AND NetScaler is configured with Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or AAA vserver 14.1-43.55 or earlier: Applicable when configured with Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy ) or AAA vserver 13.1-61.28 or later: Applicable only when configured with a SAML action. 13.1-61.27 or earlier: Applicable when configured with Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or AAA vserver 13.1 FIPS: Applicable when configured with Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy) or AAA vserver."
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX696836",
+      "title": "XenServer Security Update for Multiple Issues",
+      "url": "https://support.citrix.com/external/article/CTX696836",
+      "cves": [
+        "CVE-2026-42492",
+        "CVE-2026-62428",
+        "CVE-2026-62431",
+        "CVE-2026-62432",
+        "CVE-2026-62434",
+        "CVE-2026-62435",
+        "CVE-2026-62436"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-07-28",
+      "updated": "2026-07-28",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {},
+        "affected": [
+          "These issues affect XenServer 8.4 and XenServer 9."
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update or https://docs.xenserver.com/en-us/xenserver/9/update"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX696811",
+      "title": "XenServer Security Update for CVE-2026-42491",
+      "url": "https://support.citrix.com/external/article/CTX696811",
+      "cves": [
+        "CVE-2026-42491"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-07-14",
+      "updated": "2026-07-14",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {},
+        "affected": [
+          "This issue affects XenCenter versions before 2026.4.0 and, for PowerShell and C# clients only, SDK versions before 26.15.0. As the issue is in the client-side (XenCenter and SDK) code, it is independent of the version of XenServer that is in use."
+        ],
+        "fixed": [
+          "We have released updated versions of both XenCenter and the SDK. We recommend that customers update their existing XenCenter to the latest version using the built-in update functionality as documented at https://docs.xenserver.com/en-us/xencenter/current-release/updates-xencenter.html",
+          "We recommend that customers using the SDK download the latest version from https://www.xenserver.com/downloads",
+          "What We Are Doing"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX696527",
+      "title": "XenServer Security Update for Multiple Issues",
+      "url": "https://support.citrix.com/external/article/CTX696527",
+      "cves": [
+        "CVE-2026-23558",
+        "CVE-2026-23556",
+        "CVE-2026-23559",
+        "CVE-2026-23560",
+        "CVE-2026-23561",
+        "CVE-2025-54505"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-04-28",
+      "updated": "2026-04-28",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {},
+        "affected": [
+          "These issues affect XenServer 8.4.",
+          "(Note that XenServer 9 is in Public Preview; releases in preview state are not intended for production use and so are not covered by security bulletins until they exit preview state.)"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX696397",
+      "title": "XenServer Security Update for CVE-2026-4397",
+      "url": "https://support.citrix.com/external/article/CTX696397",
+      "cves": [
+        "CVE-2026-4397"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-03-24",
+      "updated": "2026-03-24",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {},
+        "affected": [
+          "This issue affects XenServer 8.4.",
+          "(Note that XenServer 9 is in Public Preview; releases in preview state are not intended for production use and so are not covered by security bulletins until they exit preview state.)"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX696350",
+      "title": "XenServer Security Update for CVE-2026-23554",
+      "url": "https://support.citrix.com/external/article/CTX696350",
+      "cves": [
+        "CVE-2026-23554"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-03-17",
+      "updated": "2026-03-17",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {},
+        "affected": [
+          "This issue affects XenServer 8.4.",
+          "(Note that XenServer 9.0 is in Public Preview; releases in preview state are not intended for production use and so are not covered by security bulletins until they exit preview state.)"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX695195",
+      "title": "XenServer Security Update for CVE-2025-27466, CVE-2025-58142, CVE-2025-58143 and CVE-2025-58146",
+      "url": "https://support.citrix.com/external/article/CTX695195",
+      "cves": [
+        "CVE-2025-27466",
+        "CVE-2025-58142",
+        "CVE-2025-58143",
+        "CVE-2025-58146"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-03-05",
+      "updated": "2026-03-05",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {},
+        "affected": [
+          "These issues affect XenServer 8.4.",
+          "(Note that Citrix Hypervisor 8.2 CU1 is now End of Life (EoL) and so no longer receives security updates or security bulletins.)"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update",
+          "What We Are Doing",
+          "We are notifying customers and channel partners about this potential security issue through the publication of this security bulletin on the Citrix Knowledge Center at https://support.citrix.com/securitybulletins"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX695997",
+      "title": "XenServer Security Update for CVE-2025-58151 and CVE-2026-23553",
+      "url": "https://support.citrix.com/external/article/CTX695997",
+      "cves": [
+        "CVE-2025-58151",
+        "CVE-2026-23553"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-01-27",
+      "updated": "2026-01-27",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {},
+        "affected": [
+          "These issues affect XenServer 8.4."
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX695797",
+      "title": "XenServer Security Update for CVE-2025-62626",
+      "url": "https://support.citrix.com/external/article/CTX695797",
+      "cves": [
+        "CVE-2025-62626",
+        "CVE-2024-36347"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2025-12-08",
+      "updated": "2025-12-08",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {},
+        "affected": [
+          "These issues affect XenServer 8.4.",
+          "(Note that Citrix Hypervisor 8.2 CU1 is now End of Life (EoL) and so no longer receives security updates or security bulletins.)"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update. However, customers should note that the AMD microcode update provided is only effective on systems where the system firmware (\"BIOS\") has been updated to a version that includes a fix for CVE-2024-36347. This may be marked in the firmware release notes by reference to the firmware containing “AGESA PI 1.0.0.4” or later. Customers who are uncertain about their firmware version are recommended to contact their hardware vendor.",
+          "What We Are Doing",
+          "We are notifying customers and channel partners about this potential security issue through the publication of this security bulletin on the Citrix Knowledge Center at https://support.citrix.com/securitybulletins."
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX695486",
+      "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2025-12101",
+      "url": "https://support.citrix.com/external/article/CTX695486",
+      "cves": [
+        "CVE-2025-12101"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2025-11-11",
+      "updated": "2025-11-11",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {},
+        "affected": [
+          "NetScaler ADC and NetScaler Gateway 14.1 BEFORE 14.1-56.73",
+          "NetScaler ADC and NetScaler Gateway 13.1 BEFORE 13.1-60.32",
+          "NetScaler ADC 13.1-FIPS and NDcPP BEFORE 13.1-37.250-FIPS and NDcPP",
+          "NetScaler ADC 12.1-FIPS and NDcPP BEFORE 12.1-55.333-FIPS and NDcPP"
+        ],
+        "fixed": [
+          "NetScaler ADC and NetScaler Gateway 14.1-56.73 and later releases",
+          "NetScaler ADC and NetScaler Gateway 13.1-60.32 and later releases of 13.1",
+          "NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1-37.250 and later releases of 13.1-FIPS and 13.1-NDcPP",
+          "NetScaler ADC 12.1-FIPS and 12.1-NDcPP 12.1-55.333 and later releases of 12.1-FIPS and 12.1-NDcPP"
+        ],
+        "preconditions": {
+          "CVE-2025-12101": "NetScaler must be configured as Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX695405",
+      "title": "XenServer Security Update for CVE-2025-58147 and CVE-2025-58148",
+      "url": "https://support.citrix.com/external/article/CTX695405",
+      "cves": [
+        "CVE-2025-58147",
+        "CVE-2025-58148"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2025-10-21",
+      "updated": "2025-10-28",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {},
+        "affected": [
+          "These issues affect XenServer 8.4.",
+          "(Note that Citrix Hypervisor 8.2 CU1 is End of Life (EoL) and so does not receive security updates or security bulletins.)"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update",
+          "What We Are Doing",
+          "We are notifying customers and channel partners about this potential security issue through the publication of this security bulletin on the Citrix Knowledge Center at https://support.citrix.com/securitybulletins."
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX694938",
+      "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2025-7775, CVE-2025-7776 and CVE-2025-8424",
+      "url": "https://support.citrix.com/external/article/CTX694938",
+      "cves": [
+        "CVE-2025-7775",
+        "CVE-2025-7776",
+        "CVE-2025-8424"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2025-08-26",
+      "updated": "2025-08-26",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Critical",
+        "cvss": {
+          "CVE-2025-7775": 9.2,
+          "CVE-2025-7776": 8.8,
+          "CVE-2025-8424": 8.7
+        },
+        "affected": [
+          "NetScaler ADC and NetScaler Gateway 14.1 BEFORE 14.1-47.48",
+          "NetScaler ADC and NetScaler Gateway 13.1 BEFORE 13.1-59.22",
+          "NetScaler ADC 13.1-FIPS and NDcPP BEFORE 13.1-37.241-FIPS and NDcPP",
+          "NetScaler ADC 12.1-FIPS and NDcPP BEFORE 12.1-55.330-FIPS and NDcPP"
+        ],
+        "fixed": [
+          "NetScaler ADC and NetScaler Gateway 14.1-47.48 and later releases",
+          "NetScaler ADC and NetScaler Gateway 13.1-59.22 and later releases of 13.1",
+          "NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1-37.241 and later releases of 13.1-FIPS and 13.1-NDcPP",
+          "NetScaler ADC 12.1-FIPS and 12.1-NDcPP 12.1-55.330 and later releases of 12.1-FIPS and 12.1-NDcPP",
+          "An Auth Server (AAA Vserver) add authentication vserver .*",
+          "A Gateway (VPN Vserver, ICA Proxy, CVPN, RDP Proxy) add vpn vserver .*",
+          "CR vserver with type HDX: add cr vserver .* HDX .*",
+          "A Gateway (VPN vserver) with with PCoIP Profile bounded to it"
+        ],
+        "preconditions": {
+          "CVE-2025-7775": "NetScaler must be configured as Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA virtual server (OR) NetScaler ADC and NetScaler Gateway 13.1, 14.1, 13.1-FIPS and NDcPP: LB virtual servers of type (HTTP, SSL or HTTP_QUIC) bound with IPv6 services or servicegroups bound with IPv6 servers (OR) NetScaler ADC and NetScaler Gateway 13.1, 14.1, 13.1-FIPS and NDcPP: LB virtual servers of type (HTTP, SSL or HTTP_QUIC) bound with DBS IPv6 services or servicegroups bound with IPv6 DBS servers (OR) CR virtual server with type HDX",
+          "CVE-2025-7776": "NetScaler must be configured as Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) with PCoIP Profile bounded to it",
+          "CVE-2025-8424": "Access to NSIP, Cluster Management IP or local GSLB Site IP or SNIP with Management Access"
+        },
+        "exploited": "Exploits of CVE-2025-7775 on unmitigated appliances have been observed."
+      }
+    },
+    {
+      "ctx": "CTX694820",
+      "title": "Windows Virtual Delivery Agent for CVAD and Citrix DaaS Security Bulletin CVE-2025-6759",
+      "url": "https://support.citrix.com/external/article/CTX694820",
+      "cves": [
+        "CVE-2025-6759"
+      ],
+      "products": [
+        "Citrix Virtual Apps and Desktops",
+        "Citrix DaaS",
+        "Virtual Delivery Agent"
+      ],
+      "published": "2025-07-09",
+      "updated": "2025-07-09",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {
+          "CVE-2025-6759": 7.3
+        },
+        "affected": [
+          "Citrix Virtual Apps and Desktops versions before 2503",
+          "Citrix Virtual Apps and Desktops 2402 LTSR CU2 and earlier versions of 2402 LTSR"
+        ],
+        "fixed": [
+          "Citrix Virtual Apps and Desktops 2503 and later versions",
+          "Citrix Virtual Apps and Desktops 2402 LTSR CU1 Update 1 - https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694848",
+          "Citrix Virtual Apps and Desktops 2402 LTSR CU2 Update 1 - https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX694849 and later cumulative"
+        ],
+        "preconditions": {
+          "CVE-2025-6759": "Local access to the target system"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX694846",
+      "title": "XenServer Security Update for CVE-2024-36350 and CVE-2024-36357",
+      "url": "https://support.citrix.com/external/article/CTX694846",
+      "cves": [
+        "CVE-2024-36350",
+        "CVE-2024-36357"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2025-07-08",
+      "updated": "2025-07-08",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {},
+        "affected": [
+          "These issues affect XenServer 8.4.",
+          "(Note that Citrix Hypervisor 8.2 CU1 is now End of Life (EoL) and so no longer receives security updates or security bulletins.)"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update",
+          "What We Are Doing",
+          "We are notifying customers and channel partners about this potential security issue through the publication of this security bulletin on the Citrix Knowledge Center at https://support.citrix.com/securitybulletins."
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX694780",
+      "title": "XenServer Security Update for CVE-2025-27465",
+      "url": "https://support.citrix.com/external/article/CTX694780",
+      "cves": [
+        "CVE-2025-27465"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2025-07-02",
+      "updated": "2025-07-02",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {},
+        "affected": [
+          "This issue affects XenServer 8.4.",
+          "(Note that Citrix Hypervisor 8.2 CU1 is now End of Life (EoL) and so no longer receives security updates or security bulletins)"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of XenServer 8.4. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update",
+          "What We Are Doing",
+          "We are notifying customers and channel partners about this potential security issue through the publication of this security bulletin on the Citrix Knowledge Center at https://support.citrix.com/securitybulletins."
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX694788",
+      "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2025-6543",
+      "url": "https://support.citrix.com/external/article/CTX694788",
+      "cves": [
+        "CVE-2025-6543"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2025-06-25",
+      "updated": "2025-06-27",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Critical",
+        "cvss": {
+          "CVE-2025-6543": 9.2
+        },
+        "affected": [
+          "NetScaler ADC and NetScaler Gateway 14.1 BEFORE 14.1-47.46",
+          "NetScaler ADC and NetScaler Gateway 13.1 BEFORE 13.1-59.19",
+          "NetScaler ADC 13.1-FIPS and NDcPP BEFORE 13.1-37.236-FIPS and NDcPP"
+        ],
+        "fixed": [
+          "NetScaler ADC and NetScaler Gateway 14.1-47.46 and later releases",
+          "NetScaler ADC and NetScaler Gateway 13.1-59.19 and later releases of 13.1",
+          "NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1-37.236 and later releases of 13.1-FIPS and 13.1-NDcPP. Customers should contact support - https://support.citrix.com/support-home/home to obtain the 13.1-FIPS and 13.1-NDcPP builds that address this issue."
+        ],
+        "preconditions": {
+          "CVE-2025-6543": "NetScaler must be configured as Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) OR AAA virtual server"
+        },
+        "exploited": "Exploits of CVE-2025-6543 on unmitigated appliances have been observed."
+      }
+    },
+    {
+      "ctx": "CTX694729",
+      "title": "NetScaler Console and NetScaler SDX (SVM) Security Bulletin for CVE-2025-4365",
+      "url": "https://support.citrix.com/external/article/CTX694729",
+      "cves": [
+        "CVE-2025-4365"
+      ],
+      "products": [
+        "NetScaler Console",
+        "NetScaler SDX"
+      ],
+      "published": "2025-06-17",
+      "updated": "2025-06-24",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "Medium",
+        "cvss": {
+          "CVE-2025-4365": 6.9
+        },
+        "affected": [
+          "NetScaler Console 14.1 BEFORE 14.1.47.46",
+          "NetScaler Console 13.1 BEFORE 13.1.58.32",
+          "NetScaler SDX (SVM) 14.1 BEFORE 14.1.47.46",
+          "NetScaler SDX (SVM) 13.1 BEFORE 13.1.58.32"
+        ],
+        "fixed": [
+          "NetScaler Console 14.1.47.46 and later releases",
+          "NetScaler Console 13.1.58.32 and later releases of 13.1",
+          "NetScaler SDX (SVM) 14.1.47.46 and later releases",
+          "NetScaler SDX (SVM) 13.1.58.32 and later releases of 13.1"
+        ],
+        "preconditions": {
+          "CVE-2025-4365": "Authenticated Access to NetScaler Console or NetScaler SDX (SVM)"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX694724",
+      "title": "Citrix Secure Access Client for Windows Security Bulletin for CVE-2025-0320",
+      "url": "https://support.citrix.com/external/article/CTX694724",
+      "cves": [
+        "CVE-2025-0320"
+      ],
+      "products": [
+        "Citrix Secure Access Client for Windows"
+      ],
+      "published": "2025-06-17",
+      "updated": "2025-06-17",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {
+          "CVE-2025-0320": 8.5
+        },
+        "affected": [
+          "Citrix Secure Access Client for Windows versions BEFORE 25.5.1.15"
+        ],
+        "fixed": [
+          "Citrix Secure Access Client for Windows 25.5.1.15 and later releases"
+        ],
+        "preconditions": {
+          "CVE-2025-0320": "Standard user access on local system"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX694718",
+      "title": "Citrix Workspace app for Windows Security Bulletin CVE-2025-4879",
+      "url": "https://support.citrix.com/external/article/CTX694718",
+      "cves": [
+        "CVE-2025-4879"
+      ],
+      "products": [
+        "Citrix Workspace app for Windows"
+      ],
+      "published": "2025-06-17",
+      "updated": "2025-06-25",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": "High",
+        "cvss": {
+          "CVE-2025-4879": 7.3
+        },
+        "affected": [
+          "Citrix Workspace app for Windows versions before 2409",
+          "Citrix Workspace app for Windows versions before 2402 LTSR CU2 Hotfix 1",
+          "Citrix Workspace app for Windows versions before 2402 LTSR CU3 Hotfix 1"
+        ],
+        "fixed": [
+          "Citrix Workspace app for Windows 2409 and later versions",
+          "Citrix Workspace app for Windows 2402 LTSR CU2 Hotfix 1 and later versions",
+          "Citrix Workspace app for Windows 2402 LTSR CU3 Hotfix 1 and later versions"
+        ],
+        "preconditions": {
+          "CVE-2025-4879": "Local access to the target system and App Protection service should be running"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX693178",
+      "title": "XenServer and Citrix Hypervisor Security Update for CVE-2024-28956",
+      "url": "https://support.citrix.com/external/article/CTX693178",
+      "cves": [
+        "CVE-2024-28956"
+      ],
+      "products": [
+        "XenServer",
+        "Citrix Hypervisor"
+      ],
+      "published": "2025-05-12",
+      "updated": "2025-05-12",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [
+          "This issue affects both XenServer 8.4 and Citrix Hypervisor 8.2CU1 LTSR.",
+          "Customers running Citrix Hypervisor 8.2CU1 are reminded that Citrix Hypervisor 8.2CU1 will become End of Life (EoL) on 25th June 2025 and that we recommend upgrading to XenServer 8.4 which is fully supported to 30th November 2028."
+        ],
+        "fixed": [
+          "For customers using XenServer 8.4, we have pushed updates to both the Early Access and Normal update channels. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update",
+          "For customers using Citrix Hypervisor 8.2 CU1 LTSR, we have released a hotfix to address this issue. We recommend that customers install this hotfix and follow the instructions in the linked article. The hotfix can be downloaded from the following location:",
+          "CTX693229 - https://support.citrix.com/article/CTX693229"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX692679",
+      "title": "Citrix Secure Access Client for Mac Security Bulletin for CVE-2025-1222 and CVE-2025-1223",
+      "url": "https://support.citrix.com/external/article/CTX692679",
+      "cves": [
+        "CVE-2025-1222",
+        "CVE-2025-1223"
+      ],
+      "products": [
+        "Citrix Secure Access Client for Mac"
+      ],
+      "published": "2025-02-18",
+      "updated": "2025-02-18",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2025-1222": 5.9,
+          "CVE-2025-1223": 5.9
+        },
+        "affected": [
+          "The following supported versions of Citrix Secure Access Client for Mac are affected: Citrix Secure Access Client for Mac versions BEFORE 25.01.2"
+        ],
+        "fixed": [
+          "Cloud Software Group strongly urges customers of Citrix Secure Access Client for Mac to install the relevant updated versions as soon as possible: Citrix Secure Access Client for Mac 25.01.2 and later releases"
+        ],
+        "preconditions": {
+          "CVE-2025-1222": "Local access to the target system",
+          "CVE-2025-1223": "Local access to the target system"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX692579",
+      "title": "NetScaler Console and NetScaler Agent Security Bulletin for CVE-2024-12284",
+      "url": "https://support.citrix.com/external/article/CTX692579",
+      "cves": [
+        "CVE-2024-12284"
+      ],
+      "products": [
+        "NetScaler Console",
+        "NetScaler Agent"
+      ],
+      "published": "2025-02-18",
+      "updated": "2025-02-18",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2024-12284": 8.8
+        },
+        "affected": [
+          "The following supported versions of NetScaler Console and NetScaler Agent are affected:",
+          "NetScaler Console 14.1 BEFORE 14.1-38.53",
+          "NetScaler Console 13.1 BEFORE 13.1-56.18"
+        ],
+        "fixed": [
+          "Cloud Software Group strongly urges customers of NetScaler Console and NetScaler Agent to install the relevant updated versions as soon as possible: NetScaler Console 14.1-38.53 and later releases NetScaler Console 13.1-56.18 and later releases of 13.1 NetScaler Agent 14.1-38.53 and later releases NetScaler Agent 13.1-56.18 and later releases of 13.1"
+        ],
+        "preconditions": {
+          "CVE-2024-12284": "NetScaler Console Agent is deployed"
+        },
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX692065",
+      "title": "XenServer and Citrix Hypervisor Security Update for CVE-2024-45818",
+      "url": "https://support.citrix.com/external/article/CTX692065",
+      "cves": [
+        "CVE-2024-45818"
+      ],
+      "products": [
+        "XenServer",
+        "Citrix Hypervisor"
+      ],
+      "published": "2024-11-12",
+      "updated": "2024-11-12",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [],
+        "fixed": [
+          "For customers using XenServer 8, we have pushed updates to both the Early Access and Normal update channels. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update",
+          "CTX691830 - https://support.citrix.com/article/CTX691830"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX691941",
+      "title": "Citrix Session Recording Security Bulletin for CVE-2024-8068 and CVE-2024-8069",
+      "url": "https://support.citrix.com/external/article/CTX691941",
+      "cves": [
+        "CVE-2024-8068",
+        "CVE-2024-8069"
+      ],
+      "products": [
+        "Citrix Session Recording"
+      ],
+      "published": "2024-11-12",
+      "updated": "2024-11-14",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2024-8068": 5.1,
+          "CVE-2024-8069": 5.1
+        },
+        "affected": [
+          "Current Release (CR)"
+        ],
+        "fixed": [
+          "Cloud Software Group strongly urges affected customers of Citrix Session Recording to install the relevant updated versions of Citrix Session Recording as soon as their upgrade schedule permits:",
+          "Current Release (CR)",
+          "Citrix Session Recording 2407 hotfix 24.5.200.8 and later"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX691646",
+      "title": "XenServer and Citrix Hypervisor Security Update for CVE-2024-45817",
+      "url": "https://support.citrix.com/external/article/CTX691646",
+      "cves": [
+        "CVE-2024-45817",
+        "CVE-2022-24805",
+        "CVE-2022-24809"
+      ],
+      "products": [
+        "XenServer",
+        "Citrix Hypervisor"
+      ],
+      "published": "2024-09-24",
+      "updated": "2024-09-24",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [],
+        "fixed": [
+          "For customers using XenServer 8, we have pushed updates to both the Early Access and Normal update channels. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update",
+          "For customers using Citrix Hypervisor 8.2 CU1 LTSR, we have released a hotfix to address this issue. We recommend that customers install this hotfix and follow the instructions in the linked article. The hotfix can be downloaded from the following location:",
+          "CTX691652- https://support.citrix.com/s/article/CTX691652-hotfix-xs82ecu1077-for-citrix-hypervisor-82-cumulative-update-1"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX678037",
+      "title": "Citrix Workspace app for HTML5 Security Bulletin CVE-2024-6148 and CVE-2024-6149",
+      "url": "https://support.citrix.com/external/article/CTX678037",
+      "cves": [
+        "CVE-2024-6148",
+        "CVE-2024-6149"
+      ],
+      "products": [
+        "Citrix Workspace app for HTML5"
+      ],
+      "published": "2024-07-09",
+      "updated": "2024-07-15",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2024-6148": 5.3,
+          "CVE-2024-6149": 4.8
+        },
+        "affected": [
+          "The vulnerabilities affect the following supported versions of the Citrix Workspace app for HTML5.",
+          "Citrix Workspace app for HTML5 before 2404.1",
+          "This bulletin only applies to customer-managed Citrix Workspace app for HTML5. Customers using Citrix-managed cloud services do not need to take any action."
+        ],
+        "fixed": [
+          "Citrix strongly recommends that customers upgrade their Citrix Workspace app for HTML5 to the version containing the fixes as soon as possible.",
+          "Citrix Workspace app for HTML5 versions that contain the fixes are:",
+          "Citrix Workspace app for HTML5 2404.1 and later versions"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX678036",
+      "title": "Citrix Workspace app for Windows Security Bulletin CVE-2024-6286",
+      "url": "https://support.citrix.com/external/article/CTX678036",
+      "cves": [
+        "CVE-2024-6286"
+      ],
+      "products": [
+        "Citrix Workspace app for Windows"
+      ],
+      "published": "2024-07-09",
+      "updated": "2025-06-10",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2024-6286": 8.5
+        },
+        "affected": [
+          "Citrix Workspace app for Windows versions before 2403.1",
+          "Citrix Workspace app for Windows versions before 2402 LTSR",
+          "Citrix Workspace app for Windows versions before 2203.1 LTSR CU6 Hotfix 2"
+        ],
+        "fixed": [
+          "Citrix Workspace app for Windows 2203.1 LTSR CU6 Hotfix 2 and later versions"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX678035",
+      "title": "Windows Virtual Delivery Agent for CVAD and Citrix DaaS Security Bulletin CVE-2024-6151",
+      "url": "https://support.citrix.com/external/article/CTX678035",
+      "cves": [
+        "CVE-2024-6151"
+      ],
+      "products": [
+        "Citrix Virtual Apps and Desktops",
+        "Citrix DaaS",
+        "Virtual Delivery Agent"
+      ],
+      "published": "2024-07-09",
+      "updated": "2024-07-16",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2024-6151": 8.5
+        },
+        "affected": [
+          "Citrix Virtual Apps and Desktops versions before 2402",
+          "Citrix Virtual Apps and Desktops 1912 LTSR before CU9",
+          "Citrix Virtual Apps and Desktops 2203 LTSR before CU5"
+        ],
+        "fixed": [
+          "Citrix Virtual Apps and Desktops 2402 and later versions",
+          "Citrix Virtual Apps and Desktops 1912 LTSR CU9 and later cumulative updates",
+          "Citrix Virtual Apps and Desktops 2203 LTSR CU5 and later cumulative updates",
+          "Citrix Virtual Apps and Desktops 2402 LTSR"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX678025",
+      "title": "Citrix Provisioning Security Bulletin CVE-2024-6150",
+      "url": "https://support.citrix.com/external/article/CTX678025",
+      "cves": [
+        "CVE-2024-6150"
+      ],
+      "products": [
+        "Citrix Provisioning"
+      ],
+      "published": "2024-07-09",
+      "updated": "2024-07-15",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2024-6150": 4.8
+        },
+        "affected": [
+          "The vulnerability affects the following supported versions of Citrix Provisioning",
+          "Current Release (CR)",
+          "Citrix Provisioning versions before 2402"
+        ],
+        "fixed": [
+          "Citrix Provisioning 2402 and later versions",
+          "Citrix Provisioning 2203 LTSR CU5 and later versions",
+          "Citrix Provisioning 1912 LTSR CU9 and later versions"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX677944",
+      "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2024-5491 and CVE-2024-5492",
+      "url": "https://support.citrix.com/external/article/CTX677944",
+      "cves": [
+        "CVE-2024-5491",
+        "CVE-2024-5492"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2024-07-09",
+      "updated": "2025-03-11",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {
+          "CVE-2024-5491": 7.1,
+          "CVE-2024-5492": 5.1
+        },
+        "affected": [
+          "NetScaler ADC and NetScaler Gateway 14.1 before 14.1-25.53",
+          "NetScaler ADC and NetScaler Gateway 13.1 before 13.1-53.17",
+          "NetScaler ADC and NetScaler Gateway 13.0 before 13.0-92.31",
+          "NetScaler ADC 13.1-FIPS before 13.1-37.183",
+          "NetScaler ADC 12.1-FIPS before 12.1-55.304",
+          "NetScaler ADC 12.1-NDcPP before 12.1-55.304"
+        ],
+        "fixed": [
+          "NetScaler ADC and NetScaler Gateway 14.1-25.53 and later releases",
+          "NetScaler ADC and NetScaler Gateway 13.1-53.17 and later releases of 13.1",
+          "NetScaler ADC and NetScaler Gateway 13.0-92.31 and later releases of 13.0",
+          "NetScaler ADC 13.1-FIPS 13.1-37.183 and later releases of 13.1-FIPS",
+          "NetScaler ADC 12.1-FIPS 12.1-55.304 and later releases of 12.1-FIPS",
+          "NetScaler ADC 12.1-NDcPP 12.1-55.304 and later releases of 12.1-NDcPP"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX678072",
+      "title": "Cloud Software Group Security Advisory for CVE-2024-6387",
+      "url": "https://support.citrix.com/external/article/CTX678072",
+      "cves": [
+        "CVE-2024-6387",
+        "CVE-2006-5051"
+      ],
+      "products": [],
+      "published": "2024-07-04",
+      "updated": "2025-02-12",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [],
+        "fixed": [],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX635002",
+      "title": "Citrix uberAgent Security Bulletin for CVE-2024-3902",
+      "url": "https://support.citrix.com/external/article/CTX635002",
+      "cves": [
+        "CVE-2024-3902"
+      ],
+      "products": [
+        "uberAgent"
+      ],
+      "published": "2024-04-18",
+      "updated": "2024-07-13",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [
+          "The following supported versions of Citrix uberAgent are affected by the vulnerability:",
+          "Citrix uberAgent before 7.1.2"
+        ],
+        "fixed": [],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX579459",
+      "title": "NetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2023-4966 and CVE-2023-4967",
+      "url": "https://support.citrix.com/external/article/CTX579459",
+      "cves": [
+        "CVE-2023-4966",
+        "CVE-2023-4967"
+      ],
+      "products": [
+        "NetScaler ADC",
+        "NetScaler Gateway"
+      ],
+      "published": "2023-10-10",
+      "updated": "2024-07-15",
+      "firstSeen": "2026-10-26T19:01:54Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [
+          "NetScaler ADC and NetScaler Gateway 14.1 before 14.1-8.50",
+          "NetScaler ADC and NetScaler Gateway 13.1 before 13.1-49.15",
+          "NetScaler ADC and NetScaler Gateway 13.0 before 13.0-92.19",
+          "NetScaler ADC 13.1-FIPS before 13.1-37.164",
+          "NetScaler ADC 12.1-FIPS before 12.1-55.300",
+          "NetScaler ADC 12.1-NDcPP before 12.1-55.300"
+        ],
+        "fixed": [],
+        "preconditions": {},
+        "exploited": "Exploits of CVE-2023-4966 on unmitigated appliances have been observed."
+      }
+    }
+  ]
+}
