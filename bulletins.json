@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "lastRun": "2026-10-27T19:41:01Z",
-  "lastOk": "2026-10-27T19:41:01Z",
+  "lastRun": "2026-10-28T19:41:01Z",
+  "lastOk": "2026-10-28T19:41:01Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
@@ -24,7 +24,8 @@
         "severity": "High",
         "cvss": {},
         "affected": [
-          "These issues affect both XenServer 8.4 and XenServer 9. Only deployments using the LDAPS feature are affected (this feature was introduced in July 2026)."
+          "These issues affect both XenServer 8.4 and XenServer 9. Only deployments using the LDAPS feature are affected (this feature was introduced in July 2026).",
+          "feedback Feedback"
         ],
         "fixed": [
           "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/us/en/xenserver/8/update.html or https://docs.xenserver.com/us/en/xenserver/9/update.html"
@@ -156,7 +157,8 @@
         "severity": "High",
         "cvss": {},
         "affected": [
-          "These issues affect both XenServer 8.4 and XenServer 9 except for CVE-2026-102700 which affects XenServer 8.4 only."
+          "These issues affect both XenServer 8.4 and XenServer 9 except for CVE-2026-102700 which affects XenServer 8.4 only.",
+          "feedback Feedback"
         ],
         "fixed": [
           "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/en-us/xenserver/8/update or https://docs.xenserver.com/en-us/xenserver/9/update"
