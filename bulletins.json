@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "lastRun": "2026-11-03T12:41:01Z",
-  "lastOk": "2026-11-03T12:41:01Z",
+  "lastRun": "2026-11-03T19:41:01Z",
+  "lastOk": "2026-11-03T19:41:01Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
-  "count": 46,
+  "count": 47,
   "bulletins": [
     {
       "ctx": "CTX697256",
@@ -37,6 +37,38 @@
         "fixed": [
           "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/us/en/xenserver/8/update.html or https://docs.xenserver.com/us/en/xenserver/9/update.html",
           "We have released updated versions of Workload Balancing and Conversion Manager appliances at https://www.xenserver.com/downloads. We recommend that customers update to versions 2026.1.1 or later of Workload Balancing and 2026.2.0 of Conversion Manager."
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
+    {
+      "ctx": "CTX697300",
+      "title": "Citrix Security Advisory for CVE-2026-111497 Impact on Unicon eLux Scout",
+      "url": "https://support.citrix.com/external/article/CTX697300",
+      "cves": [
+        "CVE-2026-111497"
+      ],
+      "products": [
+        "Unicon eLux"
+      ],
+      "published": "2026-10-30",
+      "updated": "2026-11-03",
+      "firstSeen": "2026-11-03T19:41:01Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [],
+        "fixed": [
+          "UniconOS Management (Scout) On-Prem",
+          "Recommended Action: Install Hotfix 2609.1 as soon as possible.",
+          "Download Link: Scout Hotfix 2609.1 Downloads",
+          "UniconOS Management (Scout) On-Prem Scout LTSR",
+          "Recommended Action: Install 2508 CU2 LTSR as soon as possible.",
+          "Download Link: Scout 2508 CU2 LTSR Downloads",
+          "Scout Cloud Gateway (SCG) On-Prem",
+          "Recommended Action: Install 1 2605.1-3 as soon as possible.",
+          "Download Link: Scout 1 2605.1-3 Downloads"
         ],
         "preconditions": {},
         "exploited": null
