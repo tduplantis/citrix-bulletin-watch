@@ -1,12 +1,47 @@
 {
   "schema": 1,
-  "lastRun": "2026-11-03T09:41:01Z",
-  "lastOk": "2026-11-03T09:41:01Z",
+  "lastRun": "2026-11-03T12:41:01Z",
+  "lastOk": "2026-11-03T12:41:01Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
-  "count": 45,
+  "count": 46,
   "bulletins": [
+    {
+      "ctx": "CTX697256",
+      "title": "XenServer Security Update for Multiple Issues",
+      "url": "https://support.citrix.com/external/article/CTX697256",
+      "cves": [
+        "CVE-2026-98432",
+        "CVE-2026-102703",
+        "CVE-2026-97631",
+        "CVE-2026-45447",
+        "CVE-2024-38797",
+        "CVE-2024-38796",
+        "CVE-2022-36764",
+        "CVE-2022-36763"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-11-03",
+      "updated": "2026-11-03",
+      "firstSeen": "2026-11-03T12:41:01Z",
+      "details": {
+        "severity": "Critical",
+        "cvss": {},
+        "affected": [
+          "All the above issues affect both XenServer 8.4 and XenServer 9. CVE-2026-98432 also affects Workload Balancing (before 2026.1.1) and Conversion Manager (before 2026.2.0).",
+          "feedback Feedback"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/us/en/xenserver/8/update.html or https://docs.xenserver.com/us/en/xenserver/9/update.html",
+          "We have released updated versions of Workload Balancing and Conversion Manager appliances at https://www.xenserver.com/downloads. We recommend that customers update to versions 2026.1.1 or later of Workload Balancing and 2026.2.0 of Conversion Manager."
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
     {
       "ctx": "CTX697257",
       "title": "XenServer Security Update for CVE-2026-114406",
