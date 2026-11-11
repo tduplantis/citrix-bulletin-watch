@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "lastRun": "2026-11-11T07:41:02Z",
-  "lastOk": "2026-11-11T06:41:01Z",
-  "ok": false,
-  "error": "list page load failed: TimeoutError: Page.wait_for_selector: Timeout 60000ms exceeded.",
+  "lastRun": "2026-11-11T08:41:02Z",
+  "lastOk": "2026-11-11T08:41:02Z",
+  "ok": true,
+  "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
   "count": 48,
   "bulletins": [
