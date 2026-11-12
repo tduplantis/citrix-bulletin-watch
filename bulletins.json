@@ -1,12 +1,42 @@
 {
   "schema": 1,
-  "lastRun": "2026-11-12T12:41:01Z",
-  "lastOk": "2026-11-12T12:41:01Z",
+  "lastRun": "2026-11-12T13:41:02Z",
+  "lastOk": "2026-11-12T13:41:02Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
-  "count": 51,
+  "count": 52,
   "bulletins": [
+    {
+      "ctx": "CTX697320",
+      "title": "Citrix NetScaler Console Security Bulletin for CVE-2026-120869",
+      "url": "https://support.citrix.com/external/article/CTX697320",
+      "cves": [
+        "CVE-2026-120869"
+      ],
+      "products": [
+        "NetScaler Console"
+      ],
+      "published": "2026-11-12",
+      "updated": "2026-11-12",
+      "firstSeen": "2026-11-12T13:41:02Z",
+      "details": {
+        "severity": "Critical",
+        "cvss": {
+          "CVE-2026-120869": 9.4
+        },
+        "affected": [
+          "Citrix NetScaler Console 14.1 BEFORE 14.1-74.34"
+        ],
+        "fixed": [
+          "Citrix NetScaler Console 14.1-74.34 and later releases"
+        ],
+        "preconditions": {
+          "CVE-2026-120869": "Access to Citrix NetScaler Console IP"
+        },
+        "exploited": null
+      }
+    },
     {
       "ctx": "CTX697305",
       "title": "Citrix NetScaler ADC and Citrix NetScaler Gateway Security Bulletin",
