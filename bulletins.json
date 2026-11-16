@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "lastRun": "2026-11-16T21:41:01Z",
+  "lastRun": "2026-11-16T22:41:02Z",
   "lastOk": "2026-11-16T05:41:01Z",
   "ok": false,
-  "error": "list page load failed: TimeoutError: Page.goto: Timeout 60000ms exceeded.",
+  "error": "list page load failed: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
   "count": 53,
   "bulletins": [
