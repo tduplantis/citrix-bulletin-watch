@@ -45,8 +45,9 @@ if [ -s "$STATE/commit-reason" ]; then
 fi
 
 # Push anything not yet on origin, including commits from an earlier failed push.
-git fetch -q origin main
+# Runs without a commit leave bulletins.json modified (lastRun), so stash it around the rebase.
+git fetch -q origin main || echo "fetch failed"
 if [ -n "$(git rev-list origin/main..main)" ]; then
-    git pull -q --rebase origin main && git push -q origin main && echo "pushed" || echo "push failed, will retry next run"
+    git pull -q --rebase --autostash origin main && git push -q origin main && echo "pushed" || echo "push failed, will retry next run"
 fi
 echo "=== $(date -u +%FT%TZ) run end"
