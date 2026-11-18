@@ -1,12 +1,32 @@
 {
   "schema": 1,
-  "lastRun": "2026-11-18T07:41:01Z",
-  "lastOk": "2026-11-18T07:41:01Z",
+  "lastRun": "2026-11-18T23:41:02Z",
+  "lastOk": "2026-11-18T23:41:02Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
-  "count": 53,
+  "count": 54,
   "bulletins": [
+    {
+      "ctx": "CTX697367",
+      "title": "Citrix Security Advisory for CVE-2026-114938 - Oracle OpenJDK (Java4Shell)",
+      "url": "https://support.citrix.com/external/article/CTX697367",
+      "cves": [
+        "CVE-2026-114938"
+      ],
+      "products": [],
+      "published": "2026-11-18",
+      "updated": "2026-11-18",
+      "firstSeen": "2026-11-18T23:41:02Z",
+      "details": {
+        "severity": null,
+        "cvss": {},
+        "affected": [],
+        "fixed": [],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
     {
       "ctx": "CTX697320",
       "title": "Citrix NetScaler Console Security Bulletin for CVE-2026-120869",
