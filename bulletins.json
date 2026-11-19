@@ -1,12 +1,45 @@
 {
   "schema": 1,
-  "lastRun": "2026-11-18T23:41:02Z",
-  "lastOk": "2026-11-18T23:41:02Z",
+  "lastRun": "2026-11-19T16:41:02Z",
+  "lastOk": "2026-11-19T16:41:02Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
-  "count": 54,
+  "count": 55,
   "bulletins": [
+    {
+      "ctx": "CTX697354",
+      "title": "XenServer Security Update for Multiple Issues",
+      "url": "https://support.citrix.com/external/article/CTX697354",
+      "cves": [
+        "CVE-2026-99286",
+        "CVE-2026-99287",
+        "CVE-2026-100080",
+        "CVE-2026-100081",
+        "CVE-2026-100082",
+        "CVE-2026-99288",
+        "CVE-2024-21963"
+      ],
+      "products": [
+        "XenServer"
+      ],
+      "published": "2026-11-19",
+      "updated": "2026-11-19",
+      "firstSeen": "2026-11-19T16:41:02Z",
+      "details": {
+        "severity": "High",
+        "cvss": {},
+        "affected": [
+          "These issues affect both XenServer 8.4 and XenServer 9 with the exception of CVE-2026-99287 which only affects XenServer 9.",
+          "feedback Feedback"
+        ],
+        "fixed": [
+          "We have pushed updates to both the Early Access and Normal update channels of each of XenServer 8.4 and XenServer 9. We recommend that customers update to the latest version from their chosen channel following the instructions at https://docs.xenserver.com/us/en/xenserver/8/update.html or https://docs.xenserver.com/us/en/xenserver/9/update.html"
+        ],
+        "preconditions": {},
+        "exploited": null
+      }
+    },
     {
       "ctx": "CTX697367",
       "title": "Citrix Security Advisory for CVE-2026-114938 - Oracle OpenJDK (Java4Shell)",
