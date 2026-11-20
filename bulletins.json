@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "lastRun": "2026-11-19T16:41:02Z",
-  "lastOk": "2026-11-19T16:41:02Z",
+  "lastRun": "2026-11-20T07:41:01Z",
+  "lastOk": "2026-11-20T07:41:01Z",
   "ok": true,
   "error": "",
   "source": "https://support.citrix.com/support-home/topic-article-list?trendingCategory=20&trendingTopicName=Security%20Bulletin",
@@ -47,9 +47,14 @@
       "cves": [
         "CVE-2026-114938"
       ],
-      "products": [],
+      "products": [
+        "Citrix Analytics",
+        "Citrix Endpoint Management",
+        "App Layering",
+        "Citrix UniconOS"
+      ],
       "published": "2026-11-18",
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "firstSeen": "2026-11-18T23:41:02Z",
       "details": {
         "severity": null,
